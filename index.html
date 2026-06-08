@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SeniorConnect Premium</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="background-glow"></div>
+
+<div class="app">
+
+  <aside class="sidebar">
+
+    <div class="logo">
+
+      <div class="logo-icon">
+        📱
+      </div>
+
+      <div>
+        <h2>SeniorConnect</h2>
+        <p>Inclusão Digital</p>
+      </div>
+
+    </div>
+
+    <nav>
+
+      <button onclick="mostrarTela('inicio')">
+        <span>🏠</span>
+        Início
+      </button>
+
+      <button onclick="mostrarTela('whatsapp')">
+        <span>💬</span>
+        WhatsApp
+      </button>
+
+      <button onclick="mostrarTela('video')">
+        <span>🎥</span>
+        Vídeo Chamada
+      </button>
+
+      <button onclick="mostrarTela('seguranca')">
+        <span>🔒</span>
+        Segurança
+      </button>
+
+      <button onclick="mostrarTela('golpes')">
+        <span>⚠️</span>
+        Golpes Digitais
+      </button>
+
+      <button onclick="mostrarTela('emergencia')">
+        <span>🆘</span>
+        Contato Rápido
+        </button>
+
+      <button onclick="mostrarTela('wifi')">
+        <span>📶</span>
+        Wi-Fi
+      </button>
+
+      <button onclick="mostrarTela('icones')">
+        <span>📲</span>
+        Ícones do Celular
+      </button>
+
+    </nav>
+
+    <div class="accessibility">
+
+      <button onclick="aumentarFonte()">
+        A+
+      </button>
+
+      <button onclick="diminuirFonte()">
+        A-
+      </button>
+
+      <button onclick="lerTexto()">
+        🔊
+      </button>
+
+    </div>
+
+  </aside>
+
+  <main class="content">
+
+    <section class="hero">
+
+      <div class="hero-left">
+
+        <div class="badge">
+          ODS 4 • Educação de Qualidade
+        </div>
+
+        <h1>
+          Tecnologia acessível para idosos
+        </h1>
+
+        <p>
+          Plataforma educativa desenvolvida para auxiliar idosos do bairro Fazendinha,
+          em Curitiba - PR, no aprendizado de ferramentas digitais
+          de maneira simples, intuitiva e segura.
+        </p>
+
+        <div class="stats">
+
+          <div class="card-stat">
+            <h2>100%</h2>
+            <p>Acessível</p>
+          </div>
+
+          <div class="card-stat">
+            <h2>+7</h2>
+            <p>Funções Educativas</p>
+          </div>
+
+          <div class="card-stat">
+            <h2>ODS 4</h2>
+            <p>Inclusão Digital</p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="phone-container">
+
+        <div class="phone-shadow"></div>
+
+        <div class="phone">
+
+          <div class="phone-top"></div>
+
+          <div class="screen" id="screen">
+
+            <h2>👋 Bem-vindo</h2>
+
+            <p>
+              Este aplicativo foi desenvolvido para promover inclusão digital
+              e facilitar o uso da tecnologia para idosos.
+            </p>
+
+            <p>
+              Utilize o menu lateral para acessar os conteúdos educativos.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
